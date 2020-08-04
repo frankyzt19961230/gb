@@ -1,5 +1,9 @@
 # peterpans-truths.github.io
 
+## Structure
+
+Main points are under `content/services/section_*.md`
+
 ## Deployment
 
 The `source` branch is our default branch. The website content and theme are saved in the `source` branch, the static content accordingly will be automatically generated after each commit to the `source` branch and save to the `master` branch.
