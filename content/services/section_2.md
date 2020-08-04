@@ -1,15 +1,16 @@
 ---
-title: "Mergers"
-date: 2018-11-28T15:15:34+10:00
-featured: true
+title: "关于创始人"
+date: 2018-11-18T12:33:46+10:00
 draft: false
+featured: true
+weight: 2
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
 de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
-## Ne verba patulosque numen vix libet
+## Question 1: 第一个锤点？
 
 Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
@@ -27,7 +28,9 @@ dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
 Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
 esse iam feres mortis Plurima.
 
-## Postquam tamen
+![Example image](images/team/default.png)
+
+## Question 2: 第二个锤点？
 
 Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
 et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et

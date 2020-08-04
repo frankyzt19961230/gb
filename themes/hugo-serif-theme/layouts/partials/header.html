@@ -1,10 +1,12 @@
 <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.standard | relURL }}" /></a>
+      <!-- <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.standard | relURL }}" /></a> -->
+      <a href="{{ .Site.BaseURL }}" style="font-weight:bold;text-decoration: none;"><span>{{ .Site.Title }}</span></a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+      <!-- <a href="{{ .Site.BaseURL }}"><img alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a> -->
+      <a href="{{ .Site.BaseURL }}" style="font-weight:bold;text-decoration: none;"><span>{{ .Site.Title }}</span></a>
     </div>
     {{ partial "main-menu.html" . }}
     {{ partial "hamburger.html" . }}

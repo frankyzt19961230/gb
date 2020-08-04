@@ -1,12 +1,17 @@
 .header {
   color: $primary;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0 10px 0;
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   border-bottom: 1px solid $ghost;
+  // position: fixed;
+  // top: 0;
+  // width: 100%;
+  // overflow: hidden;
+  // z-index: 30;
   .container {
     display: flex;
     justify-content: space-between;

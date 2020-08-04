@@ -2,7 +2,7 @@
   display: none;
   @include media-breakpoint-up(sm) {
     display: block;
-    width: 120px;
+    width: 200px;
   }
   img {
     width: 100%;
@@ -16,7 +16,7 @@
 }
 .logo-mobile {
   display: block;
-  width: 40px;
+  width: 150px;
   padding: 10px 0 10px 0;
   @include media-breakpoint-up(sm) {
     display: none;

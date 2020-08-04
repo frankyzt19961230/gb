@@ -2,11 +2,11 @@
 
 ## Deployment
 
-`source` branch is our default branch. The website content and theme are saved under `source` branch, the static content accordingly will be automatically generated after each commit to the `source` branch and save to `master` branch.
+The `source` branch is our default branch. The website content and theme are saved in the `source` branch, the static content accordingly will be automatically generated after each commit to the `source` branch and save to the `master` branch.
 
-By default, GitHub Pages settings under `Settings` tab should set the source to `branch=master`, and `folder=/ (root)`, then the static content on the `master` branch will be shown at `peterpans-truths.github.io`.
+By default, GitHub Pages settings under `Settings` tab should set the source to `branch=master`, and `folder=/ (root)`, then the static content in the `master` branch will be shown at `peterpans-truths.github.io`.
 
-The GitHub action workflow script is saved at `.github/workflows/main.yml` at the main branch `source`.
+The GitHub action workflow script is saved at `.github/workflows/main.yml` in the main branch `source`.
 
 ### Temporary Placeholder
 
