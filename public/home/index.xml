@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on PeterPans 真相</title>
+    <link>https://peterpans-truths.github.io/home/</link>
+    <description>Recent content in Homes on PeterPans 真相</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    
+	<atom:link href="https://peterpans-truths.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact us!</title>
+      <link>https://peterpans-truths.github.io/home/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://peterpans-truths.github.io/home/contact/</guid>
+      <description>我们是谁 介绍我们的背景 </description>
+    </item>
+    
+  </channel>
+</rss>

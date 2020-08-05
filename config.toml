@@ -1,4 +1,4 @@
-baseURL = "https://peterpans-truths.github.io"
+baseURL = "/"
 defaultContentLanguage = "zh"
 languageCode = "zh"
 themesDir = "themes"
@@ -38,18 +38,28 @@ theme = "hugo-serif-theme"
   # Main Menu
   [[menu.main]]
     name = "主页"
-    url = "#home"
+    url = "/"
       weight = 1
 
   [[menu.main]]
-    name = "关于彼岸国际"
-    url = "#sec1"
+    name = "事情起因"
+    url = "/introduction/"
       weight = 2
 
   [[menu.main]]
-    name = "关于创始人高博"
-    url = "#sec2"
+    name = "关于彼岸国际"
+    url = "/aboutpeterpans/"
       weight = 3
+
+  [[menu.main]]
+    name = "关于创始人高博"
+    url = "/aboutdrGao/"
+      weight = 4
+
+  [[menu.main]]
+    name = "关于我们"
+    url = "/contact/"
+      weight = 5
 
   #[[menu.main]]
   #  name = "Services"
