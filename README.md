@@ -24,3 +24,12 @@ To preview the website locally:
 
 To manually generate static content:  
 1. Run `hugo` in command line, then generated static website source code is saved in `public`
+
+
+### 关于设置网站密码（用于测试阶段）
+
+使用了aerobatic的密码插件，参考页面：https://www.aerobatic.com/blog/password-protect-a-hugo-site/
+
+测试阶段网站发布的地址为 https://sore-carriage.aerobaticapp.com
+
+网站布署: `aero deploy -d public`

@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>/aboutdrgao/section2/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/aboutpeterpans/section2/</loc>
+    <lastmod>2018-11-18T12:33:46+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/contact/</loc>
   </url>
   
@@ -53,6 +63,10 @@
                 hreflang="zh"
                 href="/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>/introduction/</loc>
   </url>
   
   <url>
