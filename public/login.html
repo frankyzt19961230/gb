@@ -1,31 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head> </head>
-  <body class="body">
-    <div class="container">
-      <div class="content center">
-        <!-- login form -->
-        <h6 class="error" id="password-error" style="color:red"><strong></strong></h6>
-        <form method="POST">
-          <label for="password">Password</label>
-          <input
-            class="u-full-width"
-            type="password"
-            placeholder="password"
-            name="aerobatic-password"
-            id="aerobatic-password"
-          />
-          <input class="button-primary" type="submit" value="Submit" />
-        </form>
-        <!-- /form -->
-      </div>
-    </div>
-    <!-- /container -->
-    <!-- JS -->
-    <script>
-      if (/fail=1/.test(location.search)) {
-        document.getElementById('password-error').innerHTML = 'Incorrect Password';
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Aerobatic - Password protected</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.aerobatic.com/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli:400,700">
+    <style>
+      *, :after, :before {
+        box-sizing: border-box;
       }
+
+      body {
+        margin: 0;
+        padding: 20px;
+        background: #fff;
+        line-height: 18px;
+        font-family: 'Muli', -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+      }
+
+      img.logo {
+        width: 140px;
+        margin-right: 10px;
+      }
+
+      h2 {
+        font-weight: 400;
+        font-size: 26px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      div.page {
+        margin: 50px auto;
+        max-width: 400px;
+        position: relative;
+        line-height: 1.2;
+        background-color: #f5f2f0;
+        border: solid 1px #ccc;
+        border-radius: 4px;
+        padding: 20px;
+      }
+
+      div.fail {
+        padding: 10px;
+        margin: 0 0 15px;
+        background-color: #DE4D4D;
+        color: #fff;
+      }
+
+      input[type=password], input[type=text] {
+        display: block;
+        padding: 15px;
+        margin: 5px auto;
+        width: 100%;
+        border: 2px solid #F4F7F7;
+        background: #FCFCFC;
+        border-radius: 3px;
+        border: 1px solid #eeeeee;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        height: auto;
+        -webkit-appearance: none;
+      }
+
+      button {
+        border: 0;
+        padding: 0 10px;
+        display: block;
+        margin: 10px 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        transition: background-color 200ms ease;
+        -webkit-transition: background-color 200ms ease;
+        color: #FFF;
+        cursor: pointer;
+        display: inline-block;
+        width: 100%;
+        background-color: rgb(43, 124, 185);
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 4px;
+        line-height: 2.5;
+      }
+
+      button:hover {
+        background-color: rgb(92,172,233);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h2>Password protected</h2>
+      <div class="fail" style="display:none;" id="failMessage">Incorrect password</div>
+      <script>
+        (function() {
+          if (/fail=1/.test(location.search)) {
+            document.getElementById('failMessage').style.display = 'block';
+          }
+        })();
+      </script>
+      
+      <form method="post">
+        <div>
+          <input type="password" name="aerobatic-password" id="password" placeholder="Password">
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <script>
+      document.getElementsByTagName('input')[0].focus();
     </script>
   </body>
 </html>
