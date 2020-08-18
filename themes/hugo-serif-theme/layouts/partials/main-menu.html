@@ -1,13 +1,35 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<style type="text/css">
+  @media all and (min-width: 992px) {
+    .nav-item .dropdown-menu{ display: none; }
+    .nav-item:hover .dropdown-menu{ display: block; }
+    .nav-item .dropdown-menu{ margin-top:0; }
+  }	
+  </style>
+
 <div id="main-menu" class="main-menu">
   <ul>
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
-    <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
-      <a href="{{.URL}}">
+    <li class="menu-item nav-item dropdown {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+      <a href="{{.URL}}" class="nav-link {{if .HasChildren }} dropdown-toggle {{ end }}"  aria-haspopup="true" aria-expanded="false" >
         {{ .Pre }}
-        <span>{{ .Name }}</span>
+        {{ .Name }}
       </a>
+      {{if .HasChildren }}
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+        {{ range .Children }}
+        <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
     </li>
     {{end}}
   </ul>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

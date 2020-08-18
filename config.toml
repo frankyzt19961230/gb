@@ -11,6 +11,8 @@ theme = "hugo-serif-theme"
   google_tag_manager_id = ""
   contact_us_content = "#Hi!"
 
+  custom_css = ["css/styles.css"]
+
   [params.logo]
     mobile = "images/logo-mobile.svg"
     standard  = "images/logo.svg"
@@ -47,37 +49,56 @@ theme = "hugo-serif-theme"
       weight = 2
 
   [[menu.main]]
+    identifier="关于彼岸国际"
     name = "关于彼岸国际"
     url = "/aboutpeterpans/"
       weight = 3
 
+      [[menu.main]]
+      name="关于哈佛哥大梦幻顾问团队"
+      parent="关于彼岸国际"
+      url="/aboutpeterpans/关于哈佛哥大梦幻顾问团队"
+      weight=1
+
   [[menu.main]]
+    identifier="关于创始人高博"
     name = "关于创始人高博"
     url = "/aboutdrGao/"
-      weight = 4
+    weight = 4
 
-  [[menu.main]]
-    name = "关于我们"
-    url = "/contact/"
-      weight = 5
+      [[menu.main]]
+        name="关于高博与哈佛"
+        parent="关于创始人高博"
+        url="/aboutdrGao/关于高博与哈佛/"
+        weight = 1
 
-  #[[menu.main]]
-  #  name = "Services"
-  #  url = "/services/"
-  #    weight = 1
-#
-  #[[menu.main]]
-  #    name = "Team"
-  #    url = "/team/"
-  #    weight = 2
+      [[menu.main]]
+        name="关于哈佛-哥大联合培养博士"
+        parent="关于创始人高博"
+        url="/aboutdrGao/关于联合培养博士/"
+        weight = 2
+
+      [[menu.main]]
+        name="关于发表的论文"
+        parent="关于创始人高博"
+        url="/aboutdrGao/关于发表的论文/"
+        weight = 3
+
+      [[menu.main]]
+        name="关于欧洲原子能机构研究员"
+        parent="关于创始人高博"
+        url="/aboutdrGao/关于欧洲原子能机构研究员/"
+        weight = 4
+
+      [[menu.main]]
+        name="关于哥大招生官"
+        parent="关于创始人高博"
+        url="/aboutdrGao/关于哥大招生官/"
+        weight = 5
+
+    [[menu.main]]
+      name = "关于我们"
+      url = "/contact/"
+        weight = 5
 
   # Footer Menu
-  [[menu.footer]]
-    name = "Home"
-    url = "/"
-      weight = 1
-
-  [[menu.footer]]
-    name = "Contact"
-    url = "/contact/"
-      weight = 2

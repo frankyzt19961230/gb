@@ -29,9 +29,9 @@ Serif is a modern business theme for Hugo. It contains content types for the arc
 
 ### SEO
 
-- Google analytics configured in `config.toml`
-- Configure GID using env variable HUGO_GOOGLE_ANALYTICS_ID, compatible with Netlify.
-- Configure meta tags and OG meta tags for the homepage in `config.toml`
+- Google analytics conmodald in `config.toml`
+- Conmodal GID using env variable HUGO_GOOGLE_ANALYTICS_ID, compatible with Netlify.
+- Conmodal meta tags and OG meta tags for the homepage in `config.toml`
 - Override any meta tags on a per page basis
 - Semantic document structure
 - Accessible colors, headings and link text
@@ -141,7 +141,7 @@ Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your b
 
 ### Homepage meta tags
 
-Often a homepage requires special meta tags such as a meta description or og meta data for twitter, facebook etc. You can configure these values in the `config.toml`
+Often a homepage requires special meta tags such as a meta description or og meta data for twitter, facebook etc. You can conmodal these values in the `config.toml`
 
 ```
 // config.toml

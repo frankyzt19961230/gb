@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="/css/style.min.d06db4c8be5eca3ebc8b2c11dee3ad35b5356a5ee98a72a2c16d65d3a0cd5278.css">
   
 
+  <link rel="stylesheet" href="/css/styles.css">
+
   
 
 
@@ -83,47 +85,89 @@
       
       <a href="/" style="font-weight:bold;text-decoration: none;"><span>PeterPans 真相</span></a>
     </div>
-    <div id="main-menu" class="main-menu">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<style type="text/css">
+  @media all and (min-width: 992px) {
+    .nav-item .dropdown-menu{ display: none; }
+    .nav-item:hover .dropdown-menu{ display: block; }
+    .nav-item .dropdown-menu{ margin-top:0; }
+  }	
+  </style>
+
+<div id="main-menu" class="main-menu">
   <ul>
     
     
-    <li class="menu-item-主页">
-      <a href="/">
+    <li class="menu-item nav-item dropdown ">
+      <a href="/" class="nav-link "  aria-haspopup="true" aria-expanded="false" >
         
-        <span>主页</span>
+        主页
       </a>
+      
     </li>
     
-    <li class="menu-item-事情起因">
-      <a href="/introduction/">
+    <li class="menu-item nav-item dropdown ">
+      <a href="/introduction/" class="nav-link "  aria-haspopup="true" aria-expanded="false" >
         
-        <span>事情起因</span>
+        事情起因
       </a>
+      
     </li>
     
-    <li class="menu-item-关于彼岸国际">
-      <a href="/aboutpeterpans/">
+    <li class="menu-item nav-item dropdown ">
+      <a href="/aboutpeterpans/" class="nav-link  dropdown-toggle "  aria-haspopup="true" aria-expanded="false" >
         
-        <span>关于彼岸国际</span>
+        关于彼岸国际
       </a>
+      
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+        
+        <a class="dropdown-item" href="/aboutpeterpans/%E5%85%B3%E4%BA%8E%E5%93%88%E4%BD%9B%E5%93%A5%E5%A4%A7%E6%A2%A6%E5%B9%BB%E9%A1%BE%E9%97%AE%E5%9B%A2%E9%98%9F">关于哈佛哥大梦幻顾问团队</a>
+        
+      </div>
+      
     </li>
     
-    <li class="menu-item-关于创始人高博">
-      <a href="/aboutdrgao/">
+    <li class="menu-item nav-item dropdown ">
+      <a href="/aboutdrgao/" class="nav-link  dropdown-toggle "  aria-haspopup="true" aria-expanded="false" >
         
-        <span>关于创始人高博</span>
+        关于创始人高博
       </a>
+      
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+        
+        <a class="dropdown-item" href="/aboutdrgao/%E5%85%B3%E4%BA%8E%E9%AB%98%E5%8D%9A%E4%B8%8E%E5%93%88%E4%BD%9B/">关于高博与哈佛</a>
+        
+        <a class="dropdown-item" href="/aboutdrgao/%E5%85%B3%E4%BA%8E%E8%81%94%E5%90%88%E5%9F%B9%E5%85%BB%E5%8D%9A%E5%A3%AB/">关于哈佛-哥大联合培养博士</a>
+        
+        <a class="dropdown-item" href="/aboutdrgao/%E5%85%B3%E4%BA%8E%E5%8F%91%E8%A1%A8%E7%9A%84%E8%AE%BA%E6%96%87/">关于发表的论文</a>
+        
+        <a class="dropdown-item" href="/aboutdrgao/%E5%85%B3%E4%BA%8E%E6%AC%A7%E6%B4%B2%E5%8E%9F%E5%AD%90%E8%83%BD%E6%9C%BA%E6%9E%84%E7%A0%94%E7%A9%B6%E5%91%98/">关于欧洲原子能机构研究员</a>
+        
+        <a class="dropdown-item" href="/aboutdrgao/%E5%85%B3%E4%BA%8E%E5%93%A5%E5%A4%A7%E6%8B%9B%E7%94%9F%E5%AE%98/">关于哥大招生官</a>
+        
+      </div>
+      
     </li>
     
-    <li class="menu-item-关于我们 active">
-      <a href="/contact/">
+    <li class="menu-item nav-item dropdown  active">
+      <a href="/contact/" class="nav-link "  aria-haspopup="true" aria-expanded="false" >
         
-        <span>关于我们</span>
+        关于我们
       </a>
+      
     </li>
     
   </ul>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
     <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
   <span class="hamburger-box">
     <span class="hamburger-inner"></span>
@@ -136,10 +180,11 @@
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+      <div class="col-12">
+        
         <h1 id="我们是谁">我们是谁</h1>
 <h2 id="介绍我们的背景">介绍我们的背景</h2>
-
+ 
       </div>
       
     </div>
@@ -163,18 +208,6 @@
           <ul>
             
             
-            <li class="menu-item-home">
-              <a href="/">
-                Home
-              </a>
-            </li>
-            
-            <li class="menu-item-contact active">
-              <a href="/contact/">
-                Contact
-              </a>
-            </li>
-            
           </ul>
         </div>
       </div>
@@ -193,7 +226,6 @@
                 some.polyu.alumni@gmail.com</a></li>
 
           </ul>
-          <p class="zerostatic" >Powered by <a href="https://www.zerostatic.io">Serif Theme</a></p>
         </div>
       </div>
     </div>
