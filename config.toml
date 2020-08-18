@@ -60,6 +60,18 @@ theme = "hugo-serif-theme"
       url="/aboutpeterpans/关于哈佛哥大梦幻顾问团队"
       weight=1
 
+      [[menu.main]]
+      name="关于千人导师团队"
+      parent="关于彼岸国际"
+      url="/aboutpeterpans/关于千人导师团队"
+      weight=2
+
+      [[menu.main]]
+      name="关于往届offer"
+      parent="关于彼岸国际"
+      url="/aboutpeterpans/关于往届offer"
+      weight=3
+
   [[menu.main]]
     identifier="关于创始人高博"
     name = "关于创始人高博"
