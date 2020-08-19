@@ -24,7 +24,7 @@ weight: 3
 
 官网放出的offer （连自己的名字地址都没有码，该公司创始人自己的offer放在自己家的官网上面）
 
-{{< modal src="" index=7 >}}
+{{< modal src="https://lh3.googleusercontent.com/fKW6JMmpLz6M6Cz2ebYceoP8p45kXqrGQPQ2B_P5zeQksvALie4EC0dw38_882P2LfnvrVNAq2Z7RdjiJdwaHTrl1rGnrBOW2KpZlImXGwqMsVCzzkcHxK1NEYzO9A" index=7 >}}
 
 {{< modal src="https://lh6.googleusercontent.com/MAmd_zdZ3g5Tp3oxoczZImhU7I2hPUIKfVCeNUVXLD1BZIHd9Nni1xLJObrFvwady16j4KgjUb6MNT3xF0km2z0rRuabHqquhMpJhq4CK8hfxbzl6xdyKggHzl7F-g" index=4 >}}
 
