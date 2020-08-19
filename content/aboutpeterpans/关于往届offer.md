@@ -8,7 +8,7 @@ weight: 3
 
 （其实这家公司可能还真的不是骗子公司，只是一家有时光机的公司而已）
 
-公司官网截图：
+公司官网截图(注：pp曾用名曼哈顿计划)：
 
 {{< modal src="https://lh3.googleusercontent.com/9MZNtErvguwhc-1bWGjZ1iBNJKTQ5ofWQR5-tPq-v1Z9-xOjQCHlQgxkYrW4izq0QFrUn_yUSVXBeHXKwJbhZNGc7JaD2Yhktag_eTY5S7LUuUPTaDoT5KAoOEoWGJWatdos2ik" index=1 >}}
 
